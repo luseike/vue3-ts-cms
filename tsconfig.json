@@ -24,6 +24,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx",
+    // 确保tsconfig.json中包含了shims-vue.d.ts文件，默认可能没用包好
     "shims-vue.d.ts"
   ],
   "exclude": ["node_modules"]
